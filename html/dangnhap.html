@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/css/dangnhap.css">
+    <link rel="stylesheet" href="../asset/icon/fontawesome-free-6.0.0-web/css/all.min.css">
+    <title>ClickClick | Điện Thoại | HCM</title>
+    <script src = "https://code.iconify.design/2/2.1.2/iconify.min.js"> </script>
+    <script src="../asset/js/bootstrap.min.js"></script>
+    <script src="../asset/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-------------------------HEADER----------------------------- -->
+        <div class="header">
+            <div class="header___content">
+                <a style="text-decoration: none;" href="../index.html"><div class="header__logo">Click<span>Click</span></div></a>
+    
+                <div class="header__nav">
+                    <ul class="nav__list">
+                       <li><a href="../index.html">HOME</a></li>
+                       <li><a href="../index.html">SHOP</a>
+                            <ul class="subnav">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                       <li><a href="./thongtin.html">ABOUT US</a></li>
+                       <li><a href="#contact">SITEMAP</a></li>
+                    </ul>
+                </div>
+
+                <div class="header__search">
+                    
+                    <input class="search" type="text" id="search" placeholder="Bạn muốn tìm gì? ...">
+                    <a href="" class="search__btn"><i class="fa-solid fa-magnifying-glass sear"></i></a>
+                    <button  class="account"><a href="./dangnhap.html"  class="account"">MY ACCOUNT</a></button>
+                    <a href="../html/giohang.html"><i class="fa-solid fa-cart-shopping cart cart-link"></i></a>
+                </div>
+    
+                <!-- <div class="header__search">
+                </div> -->
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>VUI LÒNG ĐĂNG NHẬP ĐỂ NHẬN THÊM NHIỀU ƯU ĐÃI</h1>
+
+            <form action="">
+                <h2>ĐĂNG NHẬP</h2>
+                
+                <div class="row">
+                    <label for="">Tên đăng nhập: </label>
+                    <input type="text" name="username" placeholder="Nhập tên đăng nhập...">
+                </div>
+
+                <div class="row">
+
+                    <label for="">Mật khẩu:</label>
+                    <input type="password" name="password" placeholder="Nhập mật khẩu...">
+                </div>
+
+                <div class="btn">
+                    <button id="login"  name="btnLogin">
+                        Đăng nhập
+                    </button>
+                    <button >
+                        <a  href="./dangky.html">
+
+                            Đăng ký
+                        </a>
+                    </button>
+                </div>
+            </form>
+
+            <h2>OR</h2>
+
+            <div class="btn_s">
+                <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=AddSession">
+                    <i class="fa-brands fa-google"></i>   
+                    Đăng nhập bằng Google
+                </a> 
+                <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i>   
+                    Đăng nhập bằng Facebook
+                </a> 
+            </div>
+        </div>        
+    </div>
+    
+</body>
+<script src="../asset/js/main.js"></script>
+
+<script>
+    var btnLogin = document.getElementsByName("btnLogin");
+    btnLogin[0].addEventListener("click", function(event) {
+        event.preventDefault();
+        var usernames = document.getElementsByName("username");
+        var passwords = document.getElementsByName("password");
+        var username = usernames[0].value;
+        var password = passwords[0].value;
+        if (username == "admin" && password == "admin")
+        {
+            alert('đăng nhập thành công!!!')
+            location.assign("../trangchu.html")
+
+            
+        }
+        else{
+                alert('sai tên đăng nhập hoặc mật khẩu');
+
+            }
+
+    })
+
+</script>
+</html>

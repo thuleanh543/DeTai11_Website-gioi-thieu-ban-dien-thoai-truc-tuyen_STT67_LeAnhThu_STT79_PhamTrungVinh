@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color--one: #d4ecdd;
+  --color--two: #345b63;
+  --color--three: #152d35;
+  --color--four: #112031;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+/* <-- -----------------------HEADER----------------------------- --> */
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--color--one);
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 2px 4px 1px #3333;
+
+}
+body{
+  background-color: #ecfff0;
+}
+
+span{
+  text-decoration: none;
+}
+
+.header___content {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header___content > a{
+  text-decoration: none;
+}
+
+.subnav {
+  display: none;
+}
+
+.header__nav {
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__list li {
+  padding: 0px 20px;
+}
+
+.nav__list li a {
+  text-decoration: none;
+  color: var(--color--four);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.nav__list li:hover a {
+  opacity: 0.5;
+  padding: 4px;
+  transition: 0.4s;
+}
+
+.header__logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color--three);
+  cursor: pointer;
+}
+
+.header__logo span {
+  color: var(--color--two);
+  font-size: 35px;
+}
+
+.header__search{
+  display: flex;
+  position: relative;
+}
+
+.header__search .search {
+  position: relative;
+  padding: 10px 75px 10px 35px;
+  border: 2px solid var(--color--four);
+  border-radius: 40px;
+  margin-right: 10px;
+}
+
+.header__search > i {
+  top: 32px;
+  right: 620px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+.header__search .account {
+  padding: 12px 10px;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  color: var(--color--four);
+  background-color: var(--color--two);
+  transition:  0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.account:hover {
+  transition: scale(1.2);
+  color: var(--color--one);
+  background-color: #112031;
+}
+
+.header__search .cart{
+  font-size: 35px;
+  line-height: 50px;
+  color: var(--color--two);
+  margin-left: 10px;
+  transition: 0.4s;
+
+}
+
+.search__btn{
+  position: absolute;
+    top: 7px;
+    font-size: 25px;
+    left: 259px;
+    color: var(--color--two);
+}
+
+
+.header__search .cart:hover{
+  opacity: 0.8;
+}
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 440px;
+    background-color: var(--color--two);
+    font-size: 18px;
+}
+
+.contact {
+      padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer__titile {
+    color: var(--color--one);
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  .info-list {
+    list-style: none;
+  }
+  
+  .info-list li {
+    padding: 5px 0px;
+  }
+  
+  .info-list li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    font-weight: 700;
+  }
+  
+  .info-list li:hover a {
+    color: #020214;
+  }
+  
+  .send-mail {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .input {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--color--four);
+    padding-right: 80px;
+    background-color: var(--color--one);
+    z-index: 1;
+    margin-top: 20px;
+  }
+  
+  .send-mes {
+    position: relative;
+  }
+  
+  .lable {
+    position: absolute;
+    top: -25px;
+    left: 12px;
+    padding: 2px;
+    border-radius: 2px;
+    z-index: 10px;
+    font-size: 20px;
+  }
+  
+  .footer__send > button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--color--four);
+    background-color: var(--color--three);
+    color: var(--color--one);
+    transition: 0.4s;
+  }
+  
+  .footer__send > button:hover {
+    background-color: transparent;
+    letter-spacing: 2px;
+  }
+  
+  .contact__icon {
+    background-color: var(--color--three);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icons {
+    margin-right: 50px;
+  }
+  .icon {
+    text-decoration: none;
+    font-size: 60px;
+    color: var(--color--one);
+    margin-left: 50px;
+    transition: 0.4s;
+  }
+  
+  .icon:hover {
+    opacity: 0.8;
+  }
+  .content{
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content img{
+    width: 1200px;
+  }
+  .search__btn{
+    position: absolute;
+      top: 7px;
+      font-size: 25px;
+      left: 259px;
+      color: var(--color--two);
+  }

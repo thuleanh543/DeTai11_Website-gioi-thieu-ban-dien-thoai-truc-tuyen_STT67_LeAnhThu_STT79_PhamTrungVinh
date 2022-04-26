@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/trangchu.css">
+    <link rel="stylesheet" href="./asset/icon/fontawesome-free-6.0.0-web/css/all.min.css">
+    <title>ClickClick | Điện Thoại | HCM</title>
+    <script src="./asset/js/bootstrap.min.js"></script>
+    <script src="./asset/js/jquery-3.6.0.min.js"></script> 
+    <script src = "https://code.iconify.design/2/2.1.2/iconify.min.js"> </script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-------------------------HEADER----------------------------- -->
+        <div class="header">
+            <div class="header___content">
+                <a style="text-decoration: none;" href="./index.html"><div class="header__logo">Click<span>Click</span></div></a>
+    
+                <div class="header__nav">
+                    <ul class="nav__list">
+                       <li><a href="#" >HOME</a></li>
+                       <li><a href="#store" id="btnProduct">SHOP</a>
+                        </li>
+                       <li><a href="./html/thongtin.html">ABOUT US</a></li>
+                       <li><a href="./html/sitemap.html">SITEMAP</a></li>
+                    </ul>
+                </div>
+
+                <div class="header__search">
+                    
+                    <input class="search" type="text" id="search" placeholder="Bạn muốn tìm gì? ...">
+                    <a href="" class="search__btn"><i class="fa-solid fa-magnifying-glass sear"></i></a>
+                    <button  class="account"><a href="./html/dangnhap.html"  class="account"">MY ACCOUNT</a></button>
+                    <a href="./html/giohang.html"><i class="fa-solid fa-cart-shopping cart cart-link"></i></a>
+                </div>
+    
+                <!-- <div class="header__search">
+                </div> -->
+            </div>
+        </div>
+
+
+        <!-------------------------HEADER__2nd----------------------------- -->
+
+        <div class="header-2nd">
+            <ul class="header__list--2nd">
+                <li><a href="#">
+                    <span>Iphone</span>
+                </a></li>
+                <li><a href="#">
+                    <span>SamSung</span>
+                </a></li>
+                <li><a href="#">
+                    <span>Xiaomi</span>
+                </a></li>
+                <li><a href="#">
+                    <span>Oppo</span>
+                </a></li>
+                <li><a href="#">
+                    <span>Realme</span>
+                </a></li>
+                <li><a href="#">
+                    <span>Google</span>
+                </a></li>
+            </ul>
+        </div>
+
+        <!-------------------------Content-ADS----------------------------- -->
+
+
+        <div class="content_ads">
+            <div class="content__ads">
+                <div class="content__ads--left">
+                    <span class="ads">ADS</span>
+                    <span class="ads">ADS</span>
+                    <span class="ads">ADS</span>
+                    <span class="ads">ADS</span>
+                </div>
+                <div class="content__ads--between">
+                    <div class="content__ads--slide">
+                        <span class="content__title">QUẢNG CÁO ĐEEEEEEE</span>
+                        <img class="ads--mySlides" src="./asset/img/img1.jpg" style="width:100% ">
+                        <img class="ads--mySlides" src="./asset/img/img2.jpg" style="width:100% ">
+                        <img class="ads--mySlides" src="./asset/img/img3.jpg" style="width:100% ">
+                        <img class="ads--mySlides" src="./asset/img/img4.jpg" style="width:100% ">
+                      
+                        <div class="btn_dot" style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="content__ads--right">
+                    <span class="ads">ADS</span>
+                    <span class="ads">ADS</span>
+                    <span class="ads">ADS</span>
+                    <span class="ads">ADS</span>    
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------Content-Store----------------------------- -->
+        <div id="store" class="content__store">
+            <div class="store__price">
+                <div class="store__price-selective">
+                    <a href="#">
+                        <span>Lọc</span>
+                        <i class="fa-solid fa-filter-circle-dollar"></i>
+                    </a>
+                </div>
+                <div class="store__price-choose">
+                    <a href="#"><span>Dưới 3 triệu</span></a>
+                    <a href="#"><span>Từ 3 - 7 triệu</span></a>
+                    <a href="#"><span>Từ 7 - 10 triệu</span></a>
+                    <div class="selective-price selective">
+                        <select>
+                            <option selected>Giá khác</option>
+                            <option>Dưới 3 triệu</option>
+                            <option>Từ 3 - 7 triệu</option>
+                            <option>Từ 7 - 10 triệu</option>
+                            <option>Từ 10 - 15 triệu</option>
+                            <option>Trên 15 Triệu</option>
+                            </select>
+                    </div>
+
+                    <div class="selective-memory selective">
+                        <select>
+                            <option selected>Bộ nhớ</option>
+                            <option>8 GB</option>
+                            <option>16 GB</option>
+                            <option>32 GB</option>
+                            <option>64 GB</option>
+                            <option>128 GB</option>
+                            <option>256 GB</option>
+                            
+                        </select>
+                    </div>
+
+                    <div class="selective-arrange selective">
+                        <select>
+                            <option selected>Sắp xếp</option>
+                            <option>Sản phẩm xem nhiều nhất</option>
+                            <option>Giá thấp đến cao</option>
+                            <option>Giá cao đến thấp</option>
+
+                            
+                            </select>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            
+                        <div  class="content__product">
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img  src="./asset/img/ip1.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ip2.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title"> Apple iPhone SE 3 2022 Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">256
+                                    </div>
+                                    <div class="box-price__price">   17,990,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ip3.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ip4.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 11 64GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">64
+                                    </div>
+                                    <div class="box-price__price">   11,590,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ss1.png" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div href="https://clickbuy.com.vn/apple-iphone-11-64gb-chinh-hang-vn-a/" class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ss2.png" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/mi1.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/mi2.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/gg1.png" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/gg2.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/gg3.png" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ip5.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ip6.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/rm1.png" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/op2.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+            
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ôp1.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ss4.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/ss6.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img src="./asset/img/s22-ultra-300x300.webp" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product__box">
+                                <div class="product__box-img">
+                                    <img  src="./asset/img/ss5.jpg" alt="">
+                                </div>
+                                <a href="./html/sanpham.html" class="product__box-title">Apple iPhone 13 Pro Max 128GB Chính hãng VN/A</a>
+                                <div class="product__box-price">
+                                    <div class="box-price__memory">128
+                                    </div>
+                                    <div class="box-price__price">   29,490,000Đ</div>
+            
+                                </div>
+                                <div class="product__box-description">
+                                    Tặng Phiếu mua hàng 500.000đ ( áp dụng khi mua Ốp lưng chính hãng)
+                                    
+                                </div>
+
+                                <a class="product__box-ct" href="./html/sanpham.html">
+                                    <div >
+                                        Xem chi tiết
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+            <div class="content__last">
+                <div class="btn__next">Xem Thêm</div>
+            </div>
+        </div>
+
+
+
+
+        <!-------------------------FOOTER----------------------------- -->
+        <div id="contact" class="footer">
+            <div class="contact">
+                <div class="footer__info">
+                    <h2 class="footer__titile">THÔNG TIN HỖ TRỢ</h2>
+                    <ul class="info-list">
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách bảo hành IPhone - iPad</a></li>
+                        <li><a href="#">Bảo hành Xiaomi chính hãng</a></li>
+                        <li><a href="#">Chính sách mua hàng Online</a></li>
+                        <li><a href="#">Mua hàng trả góp</a></li>
+                        <li><a href="#">Chính sách bảo bật thông tin khách hàng</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer__contact">
+                    <h2 class="footer__titile">THÔNG TIN LIÊN LẠC</h2>
+                    <ul class="info-list">
+                        <li><a href="#">Hotline bán hàng: <br>
+                                        0000-000-000 <br>
+                                        0123-456-789 <br>
+                        
+                        </a></li>
+                        <li><a href="#">Hotline bảo hành, kỹ thuật: <br>
+                                        1900 000 000
+                        </a></li>
+                        <li><a href="#">Hotline hỗ trợ phần mễm: <br>
+                                        1900 000 001
+                        </a></li>
+    
+                        <li><a href="#">Hotline phản ảnh chất lượng dịch vụ: <br>
+                                    1900 000 001
+                        </a></li>
+                        
+                    </ul>
+                </div>
+    
+                <form method="post" action="./index.html" class="footer__send">
+
+                    <h2 class="footer__titile">PHẢN HỒI</h2>
+    
+                    
+                    <div class="form-group send-mail">
+                        <label for="email">Email của bạn</label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Email của bạn">
+                    </div>
+                    <div class="send-mes form-group">
+                        <label for="message">Lời nhắn của bạn</label>
+                        <input type="text" class="form-control" id="title" name="title" placeholder="Lời nhắn của bạn">
+                    </div>
+                    <button  class="btn">SEND</button>
+                </form>
+            </div>
+
+
+
+            <div class="contact__icon">
+                <div class="icons">
+
+                    <a href="#"><i class="fa-brands fa-facebook  icon"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram  icon"></i></a>
+                    <a href="#">  <i class="fa-brands fa-twitter  icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-amazon  icon"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("ads--mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script>
+</html>
